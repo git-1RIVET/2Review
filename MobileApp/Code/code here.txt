@@ -1,7 +1,5 @@
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 My name is Mitali, I am from valsad.
-
 
 
 My name is Vidhi Raval from Bilimora.
@@ -17,8 +15,11 @@ I am Purvi. I am From Valsad.
 
 
 My Name is Frankey Mehta , I am From Valsad
+<<<<<<< HEAD
 
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 updating this folder
+=======
+>>>>>>> 282c5511f71285683a9865783cffedf47e157c32
