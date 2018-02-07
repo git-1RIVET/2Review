@@ -1,2 +1,10 @@
+<<<<<<< HEAD
 code here
 My Name is Anand Tiwari from Ankleshwar
+=======
+<<<<<<< HEAD
+I am Purvi. I am From Valsad.
+=======
+My Name is Frankey Mehta , I am From Valsad
+>>>>>>> c2c60cc25f630f2eda8eb91049e56977a62387c4
+>>>>>>> df29db66a92dbf77c75494ba71966037fdef445c
