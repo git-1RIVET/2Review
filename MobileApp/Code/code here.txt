@@ -1,11 +1,10 @@
-<<<<<<< HEAD
-Frankey
+
 =======
 <<<<<<< HEAD
 My name is Mitali, I am from valsad.
 =======
 
->>>>>>> 6117315f0a2db2c523cdd9359729aad296750f67
+
 <<<<<<< HEAD
 code here
 My name is Vidhi Raval from Bilimora.
@@ -15,7 +14,7 @@ code here
 My Name is Hariom from Bilimora. 
 =======
 =======
->>>>>>> 43a6dcd2508031dd32439661b023a35dac313534
+
 <<<<<<< HEAD
 My name is vibhuti bhagat, I am from Bilimora.
 
