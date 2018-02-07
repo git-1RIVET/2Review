@@ -1,23 +1,17 @@
-Purvi
-<<<<<<< HEAD
-code here
+
+My name is Mitali, I am from valsad.
+
+
 My name is Vidhi Raval from Bilimora.
-=======
-<<<<<<< HEAD
-code here
+
 My Name is Hariom from Bilimora. 
-=======
-<<<<<<< HEAD
+
+
 My name is vibhuti bhagat, I am from Bilimora.
-=======
-<<<<<<< HEAD
-code here
+
 My Name is Anand Tiwari from Ankleshwar
-=======
-<<<<<<< HEAD
+
 I am Purvi. I am From Valsad.
-=======
+
+
 My Name is Frankey Mehta , I am From Valsad
->>>>>>> c2c60cc25f630f2eda8eb91049e56977a62387c4
->>>>>>> df29db66a92dbf77c75494ba71966037fdef445c
->>>>>>> 1cbccb2af41450b7e23ae22495ee879afd013c0c
