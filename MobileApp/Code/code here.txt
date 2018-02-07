@@ -1,36 +1,23 @@
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-<<<<<<< HEAD
-Frankey
-=======
->>>>>>> da5fc16c643361f5263287e88bf72ccdbc9f333d
-=======
-<<<<<<< HEAD
 My name is Mitali, I am from valsad.
-=======
 
 
-<<<<<<< HEAD
-code here
+
 My name is Vidhi Raval from Bilimora.
-=======
-<<<<<<< HEAD
-code here
-My Name is Hariom from Bilimora. 
-=======
-=======
 
-<<<<<<< HEAD
+My Name is Hariom from Bilimora. 
+
+
 My name is vibhuti bhagat, I am from Bilimora.
 
-=======
-<<<<<<< HEAD
-code here
 My Name is Anand Tiwari from Ankleshwar
 
-=======
-<<<<<<< HEAD
 I am Purvi. I am From Valsad.
 
-=======
+
 My Name is Frankey Mehta , I am From Valsad
-<<<<<<< HEAD
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
