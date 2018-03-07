@@ -1,0 +1,42 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Android.App;
+using Android.Content;
+using Android.OS;
+using Android.Runtime;
+using Android.Views;
+using Android.Widget;
+using Microsoft.WindowsAzure.MobileServices;
+using Microsoft.WindowsAzure.MobileServices.SQLiteStore;
+using Microsoft.WindowsAzure.MobileServices.Sync;
+
+namespace AzureDemo
+{
+    class AzureDataService
+    {
+
+        public MobileServiceClient MobileService { get; set; }
+
+        IMobileServiceSyncTable<Designation> DesigTable;
+
+        public async Task Initialize()
+        {
+            //Get our sync table that will call out to azure
+            MobileService = new MobileServiceClient("https://2review.azurewebsites.net");
+
+            DesigTable = MobileService.GetSyncTable<Designation>();
+
+
+            //setup our local sqlite store and intialize our table
+            const string path = "2review.db";
+            var store = new MobileServiceSQLiteStore(path);
+            store.DefineTable<Designation>();
+
+            await MobileService.SyncContext.InitializeAsync(store, new MobileServiceSyncHandler());
+        }
+
+    }
+}
