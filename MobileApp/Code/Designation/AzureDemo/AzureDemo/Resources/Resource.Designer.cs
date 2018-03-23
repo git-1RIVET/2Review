@@ -1862,8 +1862,26 @@ namespace AzureDemo
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f06007a
-			public const int action0 = 2131099770;
+			// aapt resource value: 0x7f060071
+			public const int QuebtnAdd = 2131099761;
+			
+			// aapt resource value: 0x7f060070
+			public const int QuebtnCancel = 2131099760;
+			
+			// aapt resource value: 0x7f06008d
+			public const int QuestionDelete = 2131099789;
+			
+			// aapt resource value: 0x7f06008e
+			public const int QuestionEdit = 2131099790;
+			
+			// aapt resource value: 0x7f06007c
+			public const int QuestionRecyclerview = 2131099772;
+			
+			// aapt resource value: 0x7f06007b
+			public const int Questiontoolbar = 2131099771;
+			
+			// aapt resource value: 0x7f06007f
+			public const int action0 = 2131099775;
 			
 			// aapt resource value: 0x7f06005a
 			public const int action_bar = 2131099738;
@@ -1889,8 +1907,8 @@ namespace AzureDemo
 			// aapt resource value: 0x7f06005b
 			public const int action_context_bar = 2131099739;
 			
-			// aapt resource value: 0x7f06007e
-			public const int action_divider = 2131099774;
+			// aapt resource value: 0x7f060083
+			public const int action_divider = 2131099779;
 			
 			// aapt resource value: 0x7f060003
 			public const int action_menu_divider = 2131099651;
@@ -1913,6 +1931,9 @@ namespace AzureDemo
 			// aapt resource value: 0x7f06006b
 			public const int adcat = 2131099755;
 			
+			// aapt resource value: 0x7f06006f
+			public const int adque = 2131099759;
+			
 			// aapt resource value: 0x7f060049
 			public const int alertTitle = 2131099721;
 			
@@ -1934,8 +1955,8 @@ namespace AzureDemo
 			// aapt resource value: 0x7f060044
 			public const int buttonPanel = 2131099716;
 			
-			// aapt resource value: 0x7f06007b
-			public const int cancel_action = 2131099771;
+			// aapt resource value: 0x7f060080
+			public const int cancel_action = 2131099776;
 			
 			// aapt resource value: 0x7f06002b
 			public const int center = 2131099691;
@@ -1949,8 +1970,8 @@ namespace AzureDemo
 			// aapt resource value: 0x7f060052
 			public const int checkbox = 2131099730;
 			
-			// aapt resource value: 0x7f060081
-			public const int chronometer = 2131099777;
+			// aapt resource value: 0x7f060086
+			public const int chronometer = 2131099782;
 			
 			// aapt resource value: 0x7f060033
 			public const int clip_horizontal = 2131099699;
@@ -1976,23 +1997,29 @@ namespace AzureDemo
 			// aapt resource value: 0x7f060040
 			public const int default_activity_button = 2131099712;
 			
-			// aapt resource value: 0x7f060070
-			public const int design_bottom_sheet = 2131099760;
+			// aapt resource value: 0x7f060073
+			public const int design_bottom_sheet = 2131099763;
+			
+			// aapt resource value: 0x7f06007a
+			public const int design_menu_item_action_area = 2131099770;
+			
+			// aapt resource value: 0x7f060079
+			public const int design_menu_item_action_area_stub = 2131099769;
+			
+			// aapt resource value: 0x7f060078
+			public const int design_menu_item_text = 2131099768;
 			
 			// aapt resource value: 0x7f060077
-			public const int design_menu_item_action_area = 2131099767;
+			public const int design_navigation_view = 2131099767;
 			
-			// aapt resource value: 0x7f060076
-			public const int design_menu_item_action_area_stub = 2131099766;
-			
-			// aapt resource value: 0x7f060075
-			public const int design_menu_item_text = 2131099765;
-			
-			// aapt resource value: 0x7f060074
-			public const int design_navigation_view = 2131099764;
+			// aapt resource value: 0x7f06008f
+			public const int designation = 2131099791;
 			
 			// aapt resource value: 0x7f06000e
 			public const int disableHome = 2131099662;
+			
+			// aapt resource value: 0x7f060092
+			public const int editDesignation = 2131099794;
 			
 			// aapt resource value: 0x7f06005c
 			public const int edit_query = 2131099740;
@@ -2000,8 +2027,8 @@ namespace AzureDemo
 			// aapt resource value: 0x7f06001c
 			public const int end = 2131099676;
 			
-			// aapt resource value: 0x7f060086
-			public const int end_padder = 2131099782;
+			// aapt resource value: 0x7f06008b
+			public const int end_padder = 2131099787;
 			
 			// aapt resource value: 0x7f060023
 			public const int enterAlways = 2131099683;
@@ -2045,8 +2072,8 @@ namespace AzureDemo
 			// aapt resource value: 0x7f06003f
 			public const int image = 2131099711;
 			
-			// aapt resource value: 0x7f060085
-			public const int info = 2131099781;
+			// aapt resource value: 0x7f06008a
+			public const int info = 2131099786;
 			
 			// aapt resource value: 0x7f060000
 			public const int item_touch_helper_previous_elevation = 2131099648;
@@ -2054,11 +2081,11 @@ namespace AzureDemo
 			// aapt resource value: 0x7f06002f
 			public const int left = 2131099695;
 			
-			// aapt resource value: 0x7f06007f
-			public const int line1 = 2131099775;
+			// aapt resource value: 0x7f060084
+			public const int line1 = 2131099780;
 			
-			// aapt resource value: 0x7f060083
-			public const int line3 = 2131099779;
+			// aapt resource value: 0x7f060088
+			public const int line3 = 2131099784;
 			
 			// aapt resource value: 0x7f06006c
 			public const int linearLayout1 = 2131099756;
@@ -2069,11 +2096,11 @@ namespace AzureDemo
 			// aapt resource value: 0x7f060041
 			public const int list_item = 2131099713;
 			
-			// aapt resource value: 0x7f06007d
-			public const int media_actions = 2131099773;
+			// aapt resource value: 0x7f060082
+			public const int media_actions = 2131099778;
 			
-			// aapt resource value: 0x7f06008a
-			public const int menu_edit = 2131099786;
+			// aapt resource value: 0x7f060094
+			public const int menu_edit = 2131099796;
 			
 			// aapt resource value: 0x7f06001d
 			public const int middle = 2131099677;
@@ -2084,14 +2111,14 @@ namespace AzureDemo
 			// aapt resource value: 0x7f060016
 			public const int multiply = 2131099670;
 			
-			// aapt resource value: 0x7f060088
-			public const int nameDelete = 2131099784;
+			// aapt resource value: 0x7f060090
+			public const int nameDelete = 2131099792;
 			
-			// aapt resource value: 0x7f060089
-			public const int nameEdit = 2131099785;
+			// aapt resource value: 0x7f060091
+			public const int nameEdit = 2131099793;
 			
-			// aapt resource value: 0x7f060073
-			public const int navigation_header_container = 2131099763;
+			// aapt resource value: 0x7f060076
+			public const int navigation_header_container = 2131099766;
 			
 			// aapt resource value: 0x7f060021
 			public const int never = 2131099681;
@@ -2117,11 +2144,14 @@ namespace AzureDemo
 			// aapt resource value: 0x7f060007
 			public const int progress_horizontal = 2131099655;
 			
+			// aapt resource value: 0x7f06008c
+			public const int question = 2131099788;
+			
 			// aapt resource value: 0x7f060054
 			public const int radio = 2131099732;
 			
-			// aapt resource value: 0x7f060079
-			public const int recyclerview = 2131099769;
+			// aapt resource value: 0x7f06007e
+			public const int recyclerview = 2131099774;
 			
 			// aapt resource value: 0x7f060030
 			public const int right = 2131099696;
@@ -2189,11 +2219,11 @@ namespace AzureDemo
 			// aapt resource value: 0x7f060013
 			public const int showTitle = 2131099667;
 			
-			// aapt resource value: 0x7f060072
-			public const int snackbar_action = 2131099762;
+			// aapt resource value: 0x7f060075
+			public const int snackbar_action = 2131099765;
 			
-			// aapt resource value: 0x7f060071
-			public const int snackbar_text = 2131099761;
+			// aapt resource value: 0x7f060074
+			public const int snackbar_text = 2131099764;
 			
 			// aapt resource value: 0x7f060027
 			public const int snap = 2131099687;
@@ -2216,8 +2246,8 @@ namespace AzureDemo
 			// aapt resource value: 0x7f060031
 			public const int start = 2131099697;
 			
-			// aapt resource value: 0x7f06007c
-			public const int status_bar_latest_event_content = 2131099772;
+			// aapt resource value: 0x7f060081
+			public const int status_bar_latest_event_content = 2131099777;
 			
 			// aapt resource value: 0x7f060065
 			public const int submit_area = 2131099749;
@@ -2225,11 +2255,11 @@ namespace AzureDemo
 			// aapt resource value: 0x7f06000d
 			public const int tabMode = 2131099661;
 			
-			// aapt resource value: 0x7f060084
-			public const int text = 2131099780;
+			// aapt resource value: 0x7f060089
+			public const int text = 2131099785;
 			
-			// aapt resource value: 0x7f060082
-			public const int text2 = 2131099778;
+			// aapt resource value: 0x7f060087
+			public const int text2 = 2131099783;
 			
 			// aapt resource value: 0x7f06004d
 			public const int textSpacerNoButtons = 2131099725;
@@ -2237,11 +2267,8 @@ namespace AzureDemo
 			// aapt resource value: 0x7f06006a
 			public const int textView1 = 2131099754;
 			
-			// aapt resource value: 0x7f060087
-			public const int textviewdatetime = 2131099783;
-			
-			// aapt resource value: 0x7f060080
-			public const int time = 2131099776;
+			// aapt resource value: 0x7f060085
+			public const int time = 2131099781;
 			
 			// aapt resource value: 0x7f060043
 			public const int title = 2131099715;
@@ -2249,8 +2276,8 @@ namespace AzureDemo
 			// aapt resource value: 0x7f060048
 			public const int title_template = 2131099720;
 			
-			// aapt resource value: 0x7f060078
-			public const int toolbar = 2131099768;
+			// aapt resource value: 0x7f06007d
+			public const int toolbar = 2131099773;
 			
 			// aapt resource value: 0x7f060032
 			public const int top = 2131099698;
@@ -2258,11 +2285,14 @@ namespace AzureDemo
 			// aapt resource value: 0x7f060047
 			public const int topPanel = 2131099719;
 			
-			// aapt resource value: 0x7f06006f
-			public const int touch_outside = 2131099759;
+			// aapt resource value: 0x7f060072
+			public const int touch_outside = 2131099762;
 			
 			// aapt resource value: 0x7f060009
 			public const int up = 2131099657;
+			
+			// aapt resource value: 0x7f060093
+			public const int update = 2131099795;
 			
 			// aapt resource value: 0x7f060014
 			public const int useLogo = 2131099668;
@@ -2408,85 +2438,97 @@ namespace AzureDemo
 			public const int AddDesig = 2130903066;
 			
 			// aapt resource value: 0x7f03001b
-			public const int design_bottom_sheet_dialog = 2130903067;
+			public const int AddQuestion = 2130903067;
 			
 			// aapt resource value: 0x7f03001c
-			public const int design_layout_snackbar = 2130903068;
+			public const int design_bottom_sheet_dialog = 2130903068;
 			
 			// aapt resource value: 0x7f03001d
-			public const int design_layout_snackbar_include = 2130903069;
+			public const int design_layout_snackbar = 2130903069;
 			
 			// aapt resource value: 0x7f03001e
-			public const int design_layout_tab_icon = 2130903070;
+			public const int design_layout_snackbar_include = 2130903070;
 			
 			// aapt resource value: 0x7f03001f
-			public const int design_layout_tab_text = 2130903071;
+			public const int design_layout_tab_icon = 2130903071;
 			
 			// aapt resource value: 0x7f030020
-			public const int design_menu_item_action_area = 2130903072;
+			public const int design_layout_tab_text = 2130903072;
 			
 			// aapt resource value: 0x7f030021
-			public const int design_navigation_item = 2130903073;
+			public const int design_menu_item_action_area = 2130903073;
 			
 			// aapt resource value: 0x7f030022
-			public const int design_navigation_item_header = 2130903074;
+			public const int design_navigation_item = 2130903074;
 			
 			// aapt resource value: 0x7f030023
-			public const int design_navigation_item_separator = 2130903075;
+			public const int design_navigation_item_header = 2130903075;
 			
 			// aapt resource value: 0x7f030024
-			public const int design_navigation_item_subheader = 2130903076;
+			public const int design_navigation_item_separator = 2130903076;
 			
 			// aapt resource value: 0x7f030025
-			public const int design_navigation_menu = 2130903077;
+			public const int design_navigation_item_subheader = 2130903077;
 			
 			// aapt resource value: 0x7f030026
-			public const int design_navigation_menu_item = 2130903078;
+			public const int design_navigation_menu = 2130903078;
 			
 			// aapt resource value: 0x7f030027
-			public const int Main = 2130903079;
+			public const int design_navigation_menu_item = 2130903079;
 			
 			// aapt resource value: 0x7f030028
-			public const int notification_media_action = 2130903080;
+			public const int ListQuestion = 2130903080;
 			
 			// aapt resource value: 0x7f030029
-			public const int notification_media_cancel_action = 2130903081;
+			public const int Main = 2130903081;
 			
 			// aapt resource value: 0x7f03002a
-			public const int notification_template_big_media = 2130903082;
+			public const int notification_media_action = 2130903082;
 			
 			// aapt resource value: 0x7f03002b
-			public const int notification_template_big_media_narrow = 2130903083;
+			public const int notification_media_cancel_action = 2130903083;
 			
 			// aapt resource value: 0x7f03002c
-			public const int notification_template_lines = 2130903084;
+			public const int notification_template_big_media = 2130903084;
 			
 			// aapt resource value: 0x7f03002d
-			public const int notification_template_media = 2130903085;
+			public const int notification_template_big_media_narrow = 2130903085;
 			
 			// aapt resource value: 0x7f03002e
-			public const int notification_template_part_chronometer = 2130903086;
+			public const int notification_template_lines = 2130903086;
 			
 			// aapt resource value: 0x7f03002f
-			public const int notification_template_part_time = 2130903087;
+			public const int notification_template_media = 2130903087;
 			
 			// aapt resource value: 0x7f030030
-			public const int Row_Item = 2130903088;
+			public const int notification_template_part_chronometer = 2130903088;
 			
 			// aapt resource value: 0x7f030031
-			public const int select_dialog_item_material = 2130903089;
+			public const int notification_template_part_time = 2130903089;
 			
 			// aapt resource value: 0x7f030032
-			public const int select_dialog_multichoice_material = 2130903090;
+			public const int Question_Row_Item = 2130903090;
 			
 			// aapt resource value: 0x7f030033
-			public const int select_dialog_singlechoice_material = 2130903091;
+			public const int Row_Item = 2130903091;
 			
 			// aapt resource value: 0x7f030034
-			public const int support_simple_spinner_dropdown_item = 2130903092;
+			public const int select_dialog_item_material = 2130903092;
 			
 			// aapt resource value: 0x7f030035
-			public const int ToolBar = 2130903093;
+			public const int select_dialog_multichoice_material = 2130903093;
+			
+			// aapt resource value: 0x7f030036
+			public const int select_dialog_singlechoice_material = 2130903094;
+			
+			// aapt resource value: 0x7f030037
+			public const int support_simple_spinner_dropdown_item = 2130903095;
+			
+			// aapt resource value: 0x7f030038
+			public const int ToolBar = 2130903096;
+			
+			// aapt resource value: 0x7f030039
+			public const int UpdateDesignation = 2130903097;
 			
 			static Layout()
 			{

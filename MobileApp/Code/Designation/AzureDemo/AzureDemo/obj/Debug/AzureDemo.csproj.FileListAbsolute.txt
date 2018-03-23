@@ -38,6 +38,10 @@ C:\Users\ADMIN\documents\visual studio 2017\Projects\AzureDemo\AzureDemo\obj\Deb
 C:\Users\ADMIN\documents\visual studio 2017\Projects\AzureDemo\AzureDemo\obj\Debug\android\bin\AzureDemo.AzureDemo.apk
 C:\Users\ADMIN\documents\visual studio 2017\Projects\AzureDemo\AzureDemo\obj\Debug\res\layout\adddesig.xml
 C:\Users\ADMIN\documents\visual studio 2017\Projects\AzureDemo\AzureDemo\obj\Debug\res\layout\row_item.xml
+C:\Users\ADMIN\documents\visual studio 2017\Projects\AzureDemo\AzureDemo\obj\Debug\res\layout\updatedesignation.xml
+C:\Users\ADMIN\documents\visual studio 2017\Projects\AzureDemo\AzureDemo\obj\Debug\res\layout\listquestion.xml
+C:\Users\ADMIN\documents\visual studio 2017\Projects\AzureDemo\AzureDemo\obj\Debug\res\layout\question_row_item.xml
+C:\Users\ADMIN\documents\visual studio 2017\Projects\AzureDemo\AzureDemo\obj\Debug\res\layout\addquestion.xml
 C:\Users\ADMIN\documents\visual studio 2017\Projects\AzureDemo\AzureDemo\obj\Debug\res\layout\main.xml
 C:\Users\ADMIN\documents\visual studio 2017\Projects\AzureDemo\AzureDemo\obj\Debug\res\values\strings.xml
 C:\Users\ADMIN\documents\visual studio 2017\Projects\AzureDemo\AzureDemo\obj\Debug\res\values\styles.xml
@@ -47,9 +51,9 @@ C:\Users\ADMIN\documents\visual studio 2017\Projects\AzureDemo\AzureDemo\obj\Deb
 C:\Users\ADMIN\documents\visual studio 2017\Projects\AzureDemo\AzureDemo\obj\Debug\res\drawable\add.png
 C:\Users\ADMIN\documents\visual studio 2017\Projects\AzureDemo\AzureDemo\obj\Debug\R.cs.flag
 C:\Users\ADMIN\documents\visual studio 2017\Projects\AzureDemo\AzureDemo\obj\Debug\uploadflags.txt
-C:\Users\ADMIN\documents\visual studio 2017\Projects\AzureDemo\AzureDemo\obj\Debug\AzureDemo.csprojResolveAssemblyReference.cache
 C:\Users\ADMIN\documents\visual studio 2017\Projects\AzureDemo\AzureDemo\bin\Debug\AzureDemo.dll.mdb
 C:\Users\ADMIN\documents\visual studio 2017\Projects\AzureDemo\AzureDemo\obj\Debug\android\assets\AzureDemo.dll.mdb
+C:\Users\ADMIN\documents\visual studio 2017\Projects\AzureDemo\AzureDemo\obj\Debug\AzureDemo.csprojResolveAssemblyReference.cache
 C:\Users\ADMIN\documents\visual studio 2017\Projects\AzureDemo\AzureDemo\bin\Debug\AzureDemo.dll
 obj\Debug\linksrc\AzureDemo.dll.mdb
 obj\Debug\linksrc\Mono.Android.pdb

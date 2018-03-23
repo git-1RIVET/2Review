@@ -14,7 +14,7 @@ using Newtonsoft.Json;
 
 namespace AzureDemo
 {
-     public class Candidate
+    public class EmployeeCredential
     {
         [JsonProperty("Id")]
         public string Id { get; set; }
@@ -22,6 +22,8 @@ namespace AzureDemo
         [Version]
         public string AzureVersion { get; set; }
 
-        public string title { get; set; }
+        public string UserName { get; set; }
+
+        public string Password { get; set; }
     }
 }

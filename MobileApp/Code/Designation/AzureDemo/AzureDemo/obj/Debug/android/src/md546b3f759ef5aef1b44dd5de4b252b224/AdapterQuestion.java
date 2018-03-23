@@ -1,7 +1,7 @@
 package md546b3f759ef5aef1b44dd5de4b252b224;
 
 
-public class AdapterDesig
+public class AdapterQuestion
 	extends android.support.v7.widget.RecyclerView.Adapter
 	implements
 		mono.android.IGCUserPeer
@@ -14,15 +14,15 @@ public class AdapterDesig
 			"n_onBindViewHolder:(Landroid/support/v7/widget/RecyclerView$ViewHolder;I)V:GetOnBindViewHolder_Landroid_support_v7_widget_RecyclerView_ViewHolder_IHandler\n" +
 			"n_onCreateViewHolder:(Landroid/view/ViewGroup;I)Landroid/support/v7/widget/RecyclerView$ViewHolder;:GetOnCreateViewHolder_Landroid_view_ViewGroup_IHandler\n" +
 			"";
-		mono.android.Runtime.register ("AzureDemo.AdapterDesig, AzureDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", AdapterDesig.class, __md_methods);
+		mono.android.Runtime.register ("AzureDemo.AdapterQuestion, AzureDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", AdapterQuestion.class, __md_methods);
 	}
 
 
-	public AdapterDesig ()
+	public AdapterQuestion ()
 	{
 		super ();
-		if (getClass () == AdapterDesig.class)
-			mono.android.TypeManager.Activate ("AzureDemo.AdapterDesig, AzureDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
+		if (getClass () == AdapterQuestion.class)
+			mono.android.TypeManager.Activate ("AzureDemo.AdapterQuestion, AzureDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
 	}
 
 

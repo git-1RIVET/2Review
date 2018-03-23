@@ -17,9 +17,9 @@ namespace AzureDemo
     class AdapterDesignation : RecyclerView.Adapter
     {
         Context context;
-    public List<Candidate> mDataList;
+    public List<Designation> mDataList;
 
-    public AdapterDesignation(Context context, List<Candidate> mData)
+    public AdapterDesignation(Context context, List<Designation> mData)
     {
         this.context = context;
         this.mDataList = mData;
@@ -28,18 +28,21 @@ namespace AzureDemo
 
         public override void OnBindViewHolder(RecyclerView.ViewHolder holder, int position)
         {
-
             var dataitem = mDataList[position];
             var viewholder = holder as AdapterDesignationViewHolder;
             if (dataitem != null)
             {
-
-                viewholder.mTextviewDatetime.Text = dataitem.title.ToString();
+                viewholder.designation.Text = dataitem.DesignationName.ToString();
             }
 
             viewholder.nameDelete.Click += delegate
             {
                 ((MainActivity)context).Delete(dataitem);
+            };
+
+            viewholder.nameEdit.Click += delegate
+            {
+                ((MainActivity)context).Update();
             };
         }
 
@@ -54,13 +57,15 @@ namespace AzureDemo
 
     class AdapterDesignationViewHolder : RecyclerView.ViewHolder
     {
-        public TextView mTextviewDatetime;
+        public TextView designation;
         public Button nameDelete;
-
+        public Button nameEdit;
         public AdapterDesignationViewHolder(View itemview) : base(itemview)
         {
-            mTextviewDatetime = itemview.FindViewById<TextView>(Resource.Id.textviewdatetime);
+
+            designation = itemview.FindViewById<TextView>(Resource.Id.designation);
             nameDelete = itemview.FindViewById<Button>(Resource.Id.nameDelete);
+            nameEdit = itemview.FindViewById<Button>(Resource.Id.nameEdit);
         }
     }
 }

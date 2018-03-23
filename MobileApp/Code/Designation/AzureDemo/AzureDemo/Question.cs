@@ -14,7 +14,7 @@ using Newtonsoft.Json;
 
 namespace AzureDemo
 {
-    public class Student
+    public class Question
     {
         [JsonProperty("Id")]
         public string Id { get; set; }
@@ -22,6 +22,6 @@ namespace AzureDemo
         [Version]
         public string AzureVersion { get; set; }
 
-        public string name { get; set; }
+        public string Question_Text { get; set; }
     }
 }

@@ -123,14 +123,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AdapterDesignation.cs" />
-    <Compile Include="AdapterStudent.cs" />
+    <Compile Include="AdapterQuestion.cs" />
     <Compile Include="AzureDataService.cs" />
-    <Compile Include="Candidate.cs" />
     <Compile Include="Designation.cs" />
+    <Compile Include="Employee.cs" />
+    <Compile Include="EmployeeDesignation.cs" />
+    <Compile Include="EmployeeCredential.cs" />
+    <Compile Include="ListQuestion.cs" />
     <Compile Include="MainActivity.cs" />
+    <Compile Include="Question.cs" />
+    <Compile Include="QuestionDesignation.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Student.cs" />
+    <Compile Include="UpdateDesignation.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="GettingStarted.Xamarin" />
@@ -142,6 +147,18 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\Row_Item.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\UpdateDesignation.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\ListQuestion.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\Question_Row_Item.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\AddQuestion.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
@@ -172,7 +189,9 @@
     <AndroidResource Include="Resources\layout\ToolBar.xml" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\menu\Top_Menu.xml" />
+    <AndroidResource Include="Resources\menu\Top_Menu.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\add.png" />

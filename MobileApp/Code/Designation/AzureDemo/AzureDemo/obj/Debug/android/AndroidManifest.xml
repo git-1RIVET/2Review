@@ -4,12 +4,14 @@
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <application android:allowBackup="true" android:label="@string/app_name" android:name="android.app.Application" android:debuggable="true">
-    <activity android:label="AzureDemo" android:theme="@android:style/Theme.DeviceDefault.NoActionBar" android:name="md546b3f759ef5aef1b44dd5de4b252b224.MainActivity">
+    <activity android:label="ListQuestion" android:theme="@android:style/Theme.DeviceDefault.NoActionBar" android:name="md546b3f759ef5aef1b44dd5de4b252b224.ListQuestion">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
+    <activity android:label="Designation" android:theme="@android:style/Theme.DeviceDefault.NoActionBar" android:name="md546b3f759ef5aef1b44dd5de4b252b224.MainActivity" />
+    <activity android:label="UpdateDesignation" android:name="md546b3f759ef5aef1b44dd5de4b252b224.UpdateDesignation" />
     <activity android:label="Web Authenticator" android:name="md5ff7ab77db4f245bffa5244a84a5a1bca.FormAuthenticatorActivity" />
     <activity android:label="Web Authenticator" android:name="md5ff7ab77db4f245bffa5244a84a5a1bca.WebAuthenticatorActivity" />
     <activity android:label="Web Authenticator Native Broswer" android:launchMode="singleTop" android:name="md5ff7ab77db4f245bffa5244a84a5a1bca.WebAuthenticatorNativeBrowserActivity" />

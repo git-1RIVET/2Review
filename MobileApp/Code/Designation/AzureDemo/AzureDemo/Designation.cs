@@ -22,6 +22,6 @@ namespace AzureDemo
         [Version]
         public string AzureVersion { get; set; }
 
-        public string Title { get; set; }   
+        public string DesignationName { get; set; }
     }
 }

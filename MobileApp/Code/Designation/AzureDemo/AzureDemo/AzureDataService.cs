@@ -20,54 +20,92 @@ namespace AzureDemo
 
         public MobileServiceClient MobileService { get; set; }
 
-        IMobileServiceSyncTable<Candidate> DesigTable;
+        IMobileServiceSyncTable<Designation> DesigTable;
+        IMobileServiceSyncTable<Question> QuesTable;
 
         public async Task Initialize()
         {
             //Get our sync table that will call out to azure
             MobileService = new MobileServiceClient("https://2review.azurewebsites.net");
 
-            DesigTable = MobileService.GetSyncTable<Candidate>();
+            DesigTable = MobileService.GetSyncTable<Designation>();
+            QuesTable = MobileService.GetSyncTable<Question>();
 
             //setup our local sqlite store and intialize our table
             const string path = "2review.db";
             var store = new MobileServiceSQLiteStore(path);
-            store.DefineTable<Candidate>();
+            store.DefineTable<Designation>();
+            store.DefineTable<Question>();
 
             await MobileService.SyncContext.InitializeAsync(store, new MobileServiceSyncHandler());
         }
 
-        public async Task<List<Candidate>> GetDesignation()
+        public async Task<List<Designation>> GetDesignation()
         {
             await SyncDesignation();
-            var result = await DesigTable.OrderByDescending(D => D.title).ToListAsync();
+            var result = await DesigTable.OrderByDescending(D => D.DesignationName).ToListAsync();
 
             return result;
         }
 
-        public async Task<bool> DeleteDesignation(Candidate id)
+        public async Task<List<Designation>> GetUpdateDesig(Designation Id)
+        {
+            await SyncDesignation();
+            var result = await DesigTable.Where(D => D.Id.Equals(Id)).ToListAsync();
+
+            return result;
+        }
+
+        public async Task<List<Question>> GetQuestion()
+        {
+            await SyncDesignation();
+            var result = await QuesTable.OrderByDescending(Q => Q.Question_Text).ToListAsync();
+            return result;
+        }
+
+        public async Task<bool> DeleteDesignation(Designation id)
         {
             await DesigTable.DeleteAsync(id);
             await SyncDesignation();
             return true;
         }
 
+        public async Task<bool> DeleteQuestion(Question id)
+        {
+            await QuesTable.DeleteAsync(id);
+            await SyncDesignation();
+            return true;
+        }
+
         public async Task AddDesignation(string DesignationName)
         {
-            var review = new Candidate
+            var review = new Designation
             {
-                title = DesignationName
+                DesignationName = DesignationName
             }; 
 
             await DesigTable.InsertAsync(review);
             await SyncDesignation();
         }
 
+        public async Task AddQuestion(string QuestionText)
+        {
+            var review = new Question
+            {
+                Question_Text = QuestionText
+            };
+
+            await QuesTable.InsertAsync(review);
+            await SyncDesignation();
+        }
+
+
+
         public async Task SyncDesignation()
         {
             await DesigTable.PullAsync("allDesignation", DesigTable.CreateQuery());
+            await QuesTable.PullAsync("allQuestion", QuesTable.CreateQuery());
             await MobileService.SyncContext.PushAsync();
         }
-
     }
 }

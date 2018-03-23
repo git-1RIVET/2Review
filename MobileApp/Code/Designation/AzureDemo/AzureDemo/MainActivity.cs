@@ -10,16 +10,15 @@ using static Android.Resource;
 
 namespace AzureDemo
 {
-    [Activity(Label = "AzureDemo", Theme = "@android:style/Theme.DeviceDefault.NoActionBar", MainLauncher = true)]
+    [Activity(Label = "Designation", Theme = "@android:style/Theme.DeviceDefault.NoActionBar")]
     public class MainActivity : Activity
     {
 
         RecyclerView recyclerView;
         AdapterDesignation mAdapterDesignation;
         AzureDataService dataService;
-        List<Candidate> Datalist;
-        Android.App.ProgressDialog progress,progress1;
-        //Button nameDelete;
+        List<Designation> Datalist;
+        Android.App.ProgressDialog progress;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -43,13 +42,25 @@ namespace AzureDemo
             dataService.Initialize();
         }
 
-        public async void Delete(Candidate Id)
+        public async void Delete(Designation Id)
         {
             if (Datalist != null && Datalist.Count != 0)
-            {
+            { 
+                progress = new Android.App.ProgressDialog(this);
+                progress.Indeterminate = true;
+                progress.SetProgressStyle(Android.App.ProgressDialogStyle.Spinner);
+                progress.SetMessage("Deleting...");
+                progress.SetCancelable(false);
+                progress.Show();
                 await dataService.DeleteDesignation(Id);
+                progress.Dismiss();
                 SetAdapter();
             }
+        }
+
+        public void Update()
+        {
+            StartActivity(typeof(UpdateDesignation));
         }
 
         public override bool OnCreateOptionsMenu(IMenu menu)
@@ -80,7 +91,7 @@ namespace AzureDemo
             {
                 EditText adcat = view.FindViewById<EditText>(Resource.Id.adcat);
 
-               string userValue = adcat.Text.ToString();
+               string userValue = adcat.Text.ToString(); 
                 if (userValue == "")
                 {
                     Toast.MakeText(this, "Field Cannot Be Left Blank", ToastLength.Short).Show();
@@ -96,7 +107,6 @@ namespace AzureDemo
                     await dataService.AddDesignation(userValue);
                     progress.Dismiss();
                     SetAdapter();
-                    StartActivity(typeof(MainActivity));
                 }
 
             };
@@ -108,15 +118,15 @@ namespace AzureDemo
         {
             try
             {
-                Datalist = new List<Candidate>();
-                //progress1 = new Android.App.ProgressDialog(this);
-                //progress1.Indeterminate = true;
-                //progress1.SetProgressStyle(Android.App.ProgressDialogStyle.Spinner);
-                //progress1.SetMessage("Loading...");
-                //progress1.SetCancelable(false);
-                //progress1.Show();
+                Datalist = new List<Designation>();
+                progress = new Android.App.ProgressDialog(this);
+                progress.Indeterminate = true;
+                progress.SetProgressStyle(Android.App.ProgressDialogStyle.Spinner);
+                progress.SetMessage("Loading...");
+                progress.SetCancelable(false);
+                progress.Show();
                 Datalist = await dataService.GetDesignation();
-                //progress1.Dismiss();
+                progress.Dismiss();
 
                 if (mAdapterDesignation == null)
                 {
